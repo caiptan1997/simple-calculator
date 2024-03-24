@@ -10,12 +10,12 @@ const answers: {
     {
         type: "number",
         name: "numberone",
-        massage: "kndly enter your first no:"
+        massage: "kndly enter first no:"
     },
     {
         type: "number",
         name: "numbertwo",
-        massage: "kndly enter your second no:"
+        massage: "kndly enter  second no:"
     },
     {
         type: "list",
@@ -42,3 +42,5 @@ if(numberone && numbertwo && Operator) {
 } else{
     console.log("kindly enter valid input")
 }
+
+console.log("the end");
